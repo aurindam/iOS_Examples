@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21650BAD15BF339D0000B685 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21650BAC15BF339D0000B685 /* UIKit.framework */; };
+		21650BAF15BF339D0000B685 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21650BAE15BF339D0000B685 /* Foundation.framework */; };
+		21650BB115BF339D0000B685 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21650BB015BF339D0000B685 /* CoreGraphics.framework */; };
+		21650BB715BF339D0000B685 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21650BB515BF339D0000B685 /* InfoPlist.strings */; };
+		21650BB915BF339D0000B685 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21650BB815BF339D0000B685 /* main.m */; };
+		21650BBD15BF339D0000B685 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21650BBC15BF339D0000B685 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21650BA815BF339D0000B685 /* SQLiteExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLiteExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21650BAC15BF339D0000B685 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		21650BAE15BF339D0000B685 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		21650BB015BF339D0000B685 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		21650BB415BF339D0000B685 /* SQLiteExample-Info.plist */ = {isa = PBXFileReference; path = "SQLiteExample-Info.plist"; sourceTree = "<group>"; };
+		21650BB615BF339D0000B685 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21650BB815BF339D0000B685 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21650BBA15BF339D0000B685 /* SQLiteExample-Prefix.pch */ = {isa = PBXFileReference; path = "SQLiteExample-Prefix.pch"; sourceTree = "<group>"; };
+		21650BBB15BF339D0000B685 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		21650BBC15BF339D0000B685 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21650BA515BF339D0000B685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21650BAD15BF339D0000B685 /* UIKit.framework in Frameworks */,
+				21650BAF15BF339D0000B685 /* Foundation.framework in Frameworks */,
+				21650BB115BF339D0000B685 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21650B9D15BF339D0000B685 = {
+			isa = PBXGroup;
+			children = (
+				21650BB215BF339D0000B685 /* SQLiteExample */,
+				21650BAB15BF339D0000B685 /* Frameworks */,
+				21650BA915BF339D0000B685 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21650BA915BF339D0000B685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21650BA815BF339D0000B685 /* SQLiteExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21650BAB15BF339D0000B685 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21650BAC15BF339D0000B685 /* UIKit.framework */,
+				21650BAE15BF339D0000B685 /* Foundation.framework */,
+				21650BB015BF339D0000B685 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21650BB215BF339D0000B685 /* SQLiteExample */ = {
+			isa = PBXGroup;
+			children = (
+				21650BBB15BF339D0000B685 /* AppDelegate.h */,
+				21650BBC15BF339D0000B685 /* AppDelegate.m */,
+				21650BB315BF339D0000B685 /* Supporting Files */,
+			);
+			path = SQLiteExample;
+			sourceTree = "<group>";
+		};
+		21650BB315BF339D0000B685 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21650BB415BF339D0000B685 /* SQLiteExample-Info.plist */,
+				21650BB515BF339D0000B685 /* InfoPlist.strings */,
+				21650BB815BF339D0000B685 /* main.m */,
+				21650BBA15BF339D0000B685 /* SQLiteExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21650BA715BF339D0000B685 /* SQLiteExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21650BC015BF339D0000B685 /* Build configuration list for PBXNativeTarget "SQLiteExample" */;
+			buildPhases = (
+				21650BA415BF339D0000B685 /* Sources */,
+				21650BA515BF339D0000B685 /* Frameworks */,
+				21650BA615BF339D0000B685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLiteExample;
+			productName = SQLiteExample;
+			productReference = 21650BA815BF339D0000B685 /* SQLiteExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21650B9F15BF339D0000B685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 21650BA215BF339D0000B685 /* Build configuration list for PBXProject "SQLiteExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21650B9D15BF339D0000B685;
+			productRefGroup = 21650BA915BF339D0000B685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21650BA715BF339D0000B685 /* SQLiteExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21650BA615BF339D0000B685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21650BB715BF339D0000B685 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21650BA415BF339D0000B685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21650BB915BF339D0000B685 /* main.m in Sources */,
+				21650BBD15BF339D0000B685 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21650BB515BF339D0000B685 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21650BB615BF339D0000B685 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21650BBE15BF339D0000B685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21650BBF15BF339D0000B685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21650BC115BF339D0000B685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLiteExample/SQLiteExample-Prefix.pch";
+				INFOPLIST_FILE = "SQLiteExample/SQLiteExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		21650BC215BF339D0000B685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLiteExample/SQLiteExample-Prefix.pch";
+				INFOPLIST_FILE = "SQLiteExample/SQLiteExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21650BA215BF339D0000B685 /* Build configuration list for PBXProject "SQLiteExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21650BBE15BF339D0000B685 /* Debug */,
+				21650BBF15BF339D0000B685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21650BC015BF339D0000B685 /* Build configuration list for PBXNativeTarget "SQLiteExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21650BC115BF339D0000B685 /* Debug */,
+				21650BC215BF339D0000B685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21650B9F15BF339D0000B685 /* Project object */;
+}
