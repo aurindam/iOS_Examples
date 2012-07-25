@@ -13,6 +13,8 @@
 		21650BB715BF339D0000B685 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21650BB515BF339D0000B685 /* InfoPlist.strings */; };
 		21650BB915BF339D0000B685 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21650BB815BF339D0000B685 /* main.m */; };
 		21650BBD15BF339D0000B685 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21650BBC15BF339D0000B685 /* AppDelegate.m */; };
+		21650BC515BF34F80000B685 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21650BC415BF34F80000B685 /* RootViewController.m */; };
+		21650BCF15C07B280000B685 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21650BCE15C07B280000B685 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,15 @@
 		21650BAC15BF339D0000B685 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		21650BAE15BF339D0000B685 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		21650BB015BF339D0000B685 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		21650BB415BF339D0000B685 /* SQLiteExample-Info.plist */ = {isa = PBXFileReference; path = "SQLiteExample-Info.plist"; sourceTree = "<group>"; };
+		21650BB415BF339D0000B685 /* SQLiteExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLiteExample-Info.plist"; sourceTree = "<group>"; };
 		21650BB615BF339D0000B685 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21650BB815BF339D0000B685 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		21650BBA15BF339D0000B685 /* SQLiteExample-Prefix.pch */ = {isa = PBXFileReference; path = "SQLiteExample-Prefix.pch"; sourceTree = "<group>"; };
-		21650BBB15BF339D0000B685 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		21650BBA15BF339D0000B685 /* SQLiteExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQLiteExample-Prefix.pch"; sourceTree = "<group>"; };
+		21650BBB15BF339D0000B685 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		21650BBC15BF339D0000B685 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21650BC315BF34F80000B685 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		21650BC415BF34F80000B685 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		21650BCE15C07B280000B685 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21650BCF15C07B280000B685 /* libsqlite3.dylib in Frameworks */,
 				21650BAD15BF339D0000B685 /* UIKit.framework in Frameworks */,
 				21650BAF15BF339D0000B685 /* Foundation.framework in Frameworks */,
 				21650BB115BF339D0000B685 /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +68,7 @@
 		21650BAB15BF339D0000B685 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				21650BCE15C07B280000B685 /* libsqlite3.dylib */,
 				21650BAC15BF339D0000B685 /* UIKit.framework */,
 				21650BAE15BF339D0000B685 /* Foundation.framework */,
 				21650BB015BF339D0000B685 /* CoreGraphics.framework */,
@@ -74,6 +81,8 @@
 			children = (
 				21650BBB15BF339D0000B685 /* AppDelegate.h */,
 				21650BBC15BF339D0000B685 /* AppDelegate.m */,
+				21650BC315BF34F80000B685 /* RootViewController.h */,
+				21650BC415BF34F80000B685 /* RootViewController.m */,
 				21650BB315BF339D0000B685 /* Supporting Files */,
 			);
 			path = SQLiteExample;
@@ -153,6 +162,7 @@
 			files = (
 				21650BB915BF339D0000B685 /* main.m in Sources */,
 				21650BBD15BF339D0000B685 /* AppDelegate.m in Sources */,
+				21650BC515BF34F80000B685 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

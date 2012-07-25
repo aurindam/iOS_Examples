@@ -19,15 +19,13 @@
  ** You should have received a copy of the GNU General Public License
  ** along with Hangman.  If not, see <http://www.gnu.org/licenses/>.
  **
- ****************************************************************************///
-//  AppDelegate.h
+ ****************************************************************************/
+//  RootViewController.h
 //  SQLiteExample
 //
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface RootViewController : UITableViewController
 
 @end

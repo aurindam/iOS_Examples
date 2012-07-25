@@ -1,19 +1,40 @@
-//
+/****************************************************************************
+ **
+ ** Copyright (C) 2012 Aurindam Jana.
+ ** All rights reserved.
+ ** Contact: mail@aurindamjana.in
+ **
+ ** This file is part of the SQLiteExample.
+ **
+ ** Hangman is free software: you can redistribute it and/or modify
+ ** it under the terms of the GNU General Public License as published by
+ ** the Free Software Foundation, either version 3 of the License, or
+ ** (at your option) any later version.
+ **
+ ** Hangman is distributed in the hope that it will be useful,
+ ** but WITHOUT ANY WARRANTY; without even the implied warranty of
+ ** MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ ** GNU General Public License for more details.
+ **
+ ** You should have received a copy of the GNU General Public License
+ ** along with Hangman.  If not, see <http://www.gnu.org/licenses/>.
+ **
+ ****************************************************************************/
 //  AppDelegate.m
 //  SQLiteExample
 //
-//  Created by Aurindam Jana on 7/24/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
+RootViewController *_rootViewController;
 
 - (void)dealloc
 {
+    [_rootViewController release];
     [_window release];
     [super dealloc];
 }
@@ -22,8 +43,11 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    _rootViewController = [[RootViewController alloc] init];
     self.window.backgroundColor = [UIColor whiteColor];
+    [self.window addSubview:_rootViewController.view];
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
